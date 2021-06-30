@@ -7,7 +7,7 @@
 string ari(string s)
 { float word=0,characters=0,sen=0;
   int r,i;
-  float readind;
+  float read_index;
   
   for(i=0;i<strlen(s);i++)
   { if(isalnum(s[i]))
@@ -20,8 +20,8 @@ string ari(string s)
 	 continue;
     
   }
-  readind=4.71*(characters/word)+0.5*(word/sen)-21.43;
-  r=ceil(readind);
+  read_index=4.71*(characters/word)+0.5*(word/sen)-21.43;
+  r=ceil(read_index);
   switch(r)
  {case 1:
   	return "Kindergarten";
